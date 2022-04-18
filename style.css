@@ -30,3 +30,18 @@ body{
   padding:40px 60px;
   box-shadow:1px 1px 20px #171717;
 }
+
+.input-group{
+  width:100%;
+  margin:20px 0;
+}
+
+input{
+  text-indent:15px;
+  width:100%;
+  border:1px solid #444;
+  border-radius:5px;
+  background:#1d1e22;
+  color:#fff;
+  padding:10px 0;
+}
