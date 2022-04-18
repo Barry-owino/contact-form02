@@ -54,6 +54,11 @@ input{
   font-size:14px;
   background:#5168f4;
   text-align:center;
-  transition:background 5000s ease;
+  transition:1s ease-in-out;
   color:#fff;
+}
+
+.submit-button:hover{
+  cursor:pointer;
+  background:#f4b651;
 }
