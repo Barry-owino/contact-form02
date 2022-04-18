@@ -8,3 +8,13 @@ body{
   margin:0;
   overflow:hidden;
 }
+
+.heading{
+  font-size:1.25em;
+  color:#fff;
+}
+
+.description{
+  font-size:0.85em;
+  color:#999A9E;
+}
