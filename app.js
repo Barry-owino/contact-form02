@@ -18,4 +18,32 @@ form.addEventListener("submit", event => {
   if (password !== password2)
     errors.push("Passwords must match");
   console.log(errors)
+
+  if(errors.length > 0)
+  {
+    for (let i = 0; i < errors.length; i++)
+    {
+      Toastify({
+        text: errors[i],
+        duration: 4000,
+        gravity: "top",
+        position: "center",
+        style:{
+          background:"#DF1C24"
+        }
+      }).showToast();
+    }
+  }
+  else
+  {
+    Toastify({
+      text: "Thanks for joining...love you",
+      duration: 4000,
+      gravity: "top",
+      position: "center",
+      style: {
+        background: "#4bab4e"
+      }
+    }).showToast();
+  }
 });
