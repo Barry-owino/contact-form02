@@ -45,3 +45,15 @@ input{
   color:#fff;
   padding:10px 0;
 }
+
+.submit-button{
+  border:none;
+  width:100%;
+  border-radius:5px;
+  padding:12px 0;
+  font-size:14px;
+  background:#5168f4;
+  text-align:center;
+  transition:background 5000s ease;
+  color:#fff;
+}
