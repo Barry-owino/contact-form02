@@ -6,6 +6,15 @@ form.addEventListener("submit", event => {
   const password = document.querySelector("[name='password']").value.trim();
   const confirmPassword = document.querySelector("[name='confirm-Password']").value.trim();
 
-  const error = []
+  const errors = [];
+
+  if (username === '')
+    errors.push("Username can't be blank");
+  if (email === '')
+    errors.push("Email cant't be blank");
+  if (password === '')
+    errors.push("Password can't be blank");
+  if (password !== confirmPassword)
+    errors.push("Passwords must match");
 
 });
