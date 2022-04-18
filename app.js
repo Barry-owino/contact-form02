@@ -5,6 +5,7 @@ form.addEventListener("submit", event => {
   const email = document.querySelector("[name='email']").value.trim();
   const password = document.querySelector("[name='password']").value.trim();
   const confirmPassword = document.querySelector("[name='confirm-Password']").value.trim();
-  
+
+  const error = []
 
 });
